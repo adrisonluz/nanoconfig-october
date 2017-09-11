@@ -1,0 +1,24 @@
+fields:
+    name:
+        label: Nome
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: text
+    code:
+        label: Código
+        oc.commentPosition: ''
+        span: right
+        defaultFrom: name
+        type: text
+    description:
+        label: Descrição
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    is_new_user_default:
+        label: 'Usuário padrão'
+        span: right
+        disabled: 0
+        type: switch

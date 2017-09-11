@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    first_name:
+        label: Nome
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: Email
+        type: text
+        searchable: true
+        sortable: true
+    login:
+        label: Login
+        type: text
+        searchable: true
+        sortable: true
+    celular:
+        label: Celular
+        type: text
+        searchable: true
+        sortable: true

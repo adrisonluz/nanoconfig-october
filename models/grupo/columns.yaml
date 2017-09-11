@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: Nome
+        type: text
+        searchable: true
+        sortable: true
+    code:
+        label: Código
+        type: text
+        searchable: true
+        sortable: true

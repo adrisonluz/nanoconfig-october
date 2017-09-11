@@ -1,0 +1,10 @@
+name: Grupos
+modelClass: AdrisonLuz\NanoConfig\Models\Grupo
+form: $/adrisonluz/nanoconfig/models/grupo/fields.yaml
+defaultRedirect: adrisonluz/nanoconfig/grupos
+create:
+    redirect: 'adrisonluz/nanoconfig/grupos/update/:id'
+    redirectClose: adrisonluz/nanoconfig/grupos
+update:
+    redirect: adrisonluz/nanoconfig/grupos
+    redirectClose: adrisonluz/nanoconfig/grupos

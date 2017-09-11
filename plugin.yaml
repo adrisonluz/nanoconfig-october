@@ -1,0 +1,37 @@
+plugin:
+    name: 'adrisonluz.nanoconfig::lang.plugin.name'
+    description: 'adrisonluz.nanoconfig::lang.plugin.description'
+    author: 'Adrison Luz'
+    icon: oc-icon-cogs
+    homepage: ''
+permissions:
+    nanoconfig_ativos:
+        tab: 'Nano Config'
+        label: 'Nano Config | Ativos'
+    nanoconfig_usuarios:
+        tab: 'Nano Config'
+        label: 'Nano Config | Usuários'
+    nanoconfig_grupos:
+        tab: 'Nano Config'
+        label: 'Nano Config | Grupos'
+navigation:
+    usuarios:
+        label: 'Nano Config'
+        url: adrisonluz/nanoconfig/usuarios
+        icon: icon-cogs
+        permissions:
+            - nanoconfig_ativos
+        order: '100'
+        sideMenu:
+            usuarios:
+                label: Usuários
+                url: adrisonluz/nanoconfig/usuarios
+                icon: icon-user
+                permissions:
+                    - nanoconfig_usuarios
+            grupos:
+                label: Grupos
+                url: adrisonluz/nanoconfig/grupos
+                icon: icon-users
+                permissions:
+                    - nanoconfig_grupos

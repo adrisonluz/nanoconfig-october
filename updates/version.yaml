@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table adrisonluz_nanoconfig_nanoativos'
+    - builder_table_create_adrisonluz_nanoconfig_nanoativos.php
+1.0.3:
+    - 'Updated table adrisonluz_nanoconfig_nanoativos'
+    - builder_table_update_adrisonluz_nanoconfig_ativos.php
+1.0.4:
+    - 'Created table adrisonluz_nanoconfig_usuarios'
+    - builder_table_create_adrisonluz_nanoconfig_usuarios.php
+1.0.5:
+    - 'Created table adrisonluz_nanoconfig_grupos'
+    - builder_table_create_adrisonluz_nanoconfig_grupos.php

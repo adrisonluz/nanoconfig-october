@@ -1,0 +1,11 @@
+name: Usuarios
+modelClass: AdrisonLuz\NanoConfig\Models\Usuario
+form: $/adrisonluz/nanoconfig/models/usuario/fields.yaml
+defaultRedirect: adrisonluz/nanoconfig/usuarios
+create:
+    redirect: 'adrisonluz/nanoconfig/usuarios/update/:id'
+    redirectClose: adrisonluz/nanoconfig/usuarios
+update:
+    redirect: adrisonluz/nanoconfig/usuarios
+    redirectClose: adrisonluz/nanoconfig/usuarios
+preview: {  }
